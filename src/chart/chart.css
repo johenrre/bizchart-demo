@@ -1,0 +1,24 @@
+.App {
+  width: 370px;
+  position: relative;
+}
+
+.leftUnit {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(98, 111, 134, 1);
+  line-height: 17px;
+}
+
+.rightUnit {
+  position: absolute;
+  top: 15px;
+  right: 0px;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(98, 111, 134, 1);
+  line-height: 17px;
+}

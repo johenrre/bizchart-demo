@@ -1,25 +1,23 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Chart1 from './chart/chart';
+import Chart2 from './chart/chart2';
+import Chart3 from './chart/chart3';
+import Chart4 from './chart/chart4';
+import Chart5 from './chart/chart5';
+import Chart6 from './chart/chart6';
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        {/* <Chart /> */}
+        {/* <Chart2 /> */}
+        {/* <Chart3 /> */}
+        {/* <Chart4 /> */}
+        {/* <Chart5 /> */}
+        {/* <Chart6 /> */}
       </div>
     );
   }
